@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: kido;
+    src: url(/css/kido.ttf);
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
     display: flex;
@@ -13,6 +18,48 @@ body {
     height: 100%;
     height: auto;
     position: relative;
+}
+
+#indexUsers {
+    background-image: url("https://img.freepik.com/vector-gratis/parque-infantil-parque-verano-carrusel_107791-1361.jpg?w=2000")
+}
+
+.warning {
+    color: blueviolet;
+    font-size: x-large;
+}
+
+#formUser {
+    margin: 100px;
+    padding: 50px;
+}
+
+#TituloIndex {
+    font-family: kido;
+}
+
+#TituloIndex::first-letter {
+    color: red, blue, blueviolet, orangered
+}
+
+input,
+select,
+button {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 100%;
+    width: 150px;
+    border-radius: 15px;
+    margin: 15px;
+    color: rgb(13, 45, 148);
+    box-sizing: border-box;
+}
+
+::placeholder {
+    color: rgb(11, 168, 11);
+}
+
+input:hover {
+    color: blueviolet;
 }
 
 video {
